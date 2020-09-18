@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel World</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="container-fluid title-head">
+    <nav class="navbar navbar-expand-lg light-blue navbar-light navigation sticky" role="navbar">
+      <a class="navbar-brand brand-logo" href="#">Travel World</a>
+
+      <button class="navbar-toggler btns" type="button" data-toggle="collapse" data-target="#menus"
+        aria-controls="menus" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="navbar-toggler-icon"></span></button>
+
+      <div class="collapse navbar-collapse" id="menus">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link links" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="#">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="mw-100"></div>
+    <div class="row title-cont">
+      <div class="col-lg-12 col-sm-3">
+        <h1 class="title">Explore The World</h1>
+        <p class="text-title">Travellers are Dreamers who make their desire for Advanture of Beauty, Travel is never a
+          matter of money but of courage. Travel...the best way to lost and found...all at the same time.</p>
+        <a class="btn btn-light btn-lg" href="#"> Get Started <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <!-- <div class="col-md-4 right-cont ">
+              <img class="hood-img" src="assets/imgs/outdoor.png" alt="">
+            </div>
+          </div> -->
+  </section>
+
+  <section class="container-fluid  display">
+    <div class="row">
+      <div class="col-lg-6 ">
+        <h2>Feel The Beauty of The World</h2>
+        <p class="text-p">Earth is a wonderful world for those who have eyes the beauty and its great variety. The
+          flowers that bloom in the morning, the sun still shining, the beautiful butterflies that we can see the
+          plesant sound that we can hear from the birds. Think even simple things life grass when the moves across it,
+          it ripples and whispers.Then we can count different shades of green as the grass moves.</p>
+        <p class="text-p">In other people, grass is only a grass, but they didn't know grass is important. it is
+          important, not only just important-it is very important especialy to the animals like horse, if people have
+          food to eat it makes them alive, it also the same in the animals, the grass serves as their food in their
+          everyday living, they need also the water like people or other living things, they need water to make them
+          strong.</p>
+        <a class="btn btn-dark dis-btn" href="#">Popular Destinations</a>
+      </div>
+      <div class="col-lg-6 dis-imgbx">
+        <img class="dis-img" src="assets/imgs/banner-img2.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid sale-bx">
+    <div class="col-lg-12">
+      <h3><span class="perc">45</span><span>%</span> <span>off sale</span></h3>
+      <h3 class="jumbo">Just hurry up limited offer!</h3>
+      <p class="text-p">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+        ocean.</p>
+      <a class="btn btn-dark btn-lg sale-btn" href="#">Book Now</a><a class="btn btn-outline-light btn-lg sale-btn"
+        href="#">Read More</a>
+    </div>
+  </section>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+
+</html>
